@@ -46,7 +46,7 @@ class Board
 
     public void makeMove(int row, int col)
     {
-
+        board[row][col] = symbol;
     }
 }
 
