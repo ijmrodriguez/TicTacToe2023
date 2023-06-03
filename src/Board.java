@@ -44,7 +44,7 @@ class Board
         return row >= 0 && row < 3 && col >= 0 && col < 3 && board[row][col] == '-';
     }
 
-    public void makeMove(int row, int col)
+    public void makeMove(int row, int col, char symbol)
     {
         board[row][col] = symbol;
     }
